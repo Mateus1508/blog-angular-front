@@ -7,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BigCardComponent implements OnInit {
   @Input()
+  id: number = 0;
+  @Input()
   photo: string = '';
   @Input()
   title: string = '';

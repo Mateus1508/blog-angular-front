@@ -2,13 +2,20 @@
 <app-title></app-title>
 <div>
     <article>
-        <app-big-card photo="assets/blog/blog-image-robo.jpg" title="Inteligência artificial. Benéfica ou perigosa ?"
+        <app-big-card [id]="1" photo="assets/blog/blog-image-robo.jpg"
+            title="Inteligência artificial. Benéfica ou perigosa ?"
             description="A inteligência artificial é um campo da ciência da computação que se dedica ao estudo e ao desenvolvimento de máquinas e programas computacionais capazes de reproduzir o comportamento humano na tomada de decisões e na realização de tarefas, desde as mais simples até as mais complexas...">
         </app-big-card>
     </article>
     <article>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card [id]="2" photo="assets/blog/blog-image-nba.jpg" title="Lorem ipsum dolor sit, amet consectetur!"
+            description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odit a iusto. Quas neque hic tenetur,
+            cupiditate omnis facere veritatis"></app-small-card>
+        <app-small-card [id]="3" photo="assets/blog/blog-image-jogo.jpg"
+            title="Lorem ipsum dolor sit, amet consectetur!" description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odit a iusto. Quas neque hic tenetur,
+            cupiditate omnis facere veritatis"></app-small-card>
+        <app-small-card [id]="4" photo="assets/blog/blog-image-copa.jpg"
+            title="Lorem ipsum dolor sit, amet consectetur!" description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odit a iusto. Quas neque hic tenetur,
+            cupiditate omnis facere veritatis"></app-small-card>
     </article>
 </div>

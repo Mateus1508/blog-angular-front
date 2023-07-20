@@ -1,10 +1,11 @@
 <section>
-    <div>
-        <img src="assets/blog/blog-image-nba.jpg" alt="">
-    </div>
-    <div>
-        <h1>Lorem ipsum dolor sit, amet consectetur!</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam odit a iusto. Quas neque hic tenetur,
-            cupiditate omnis facere veritatis...<br><a href="">ler mais</a></p>
-    </div>
+    <a [routerLink]="['content', id]">
+        <div>
+            <img src={{photo}} alt="">
+        </div>
+        <div>
+            <h1>{{title}}</h1>
+            <p>{{description}}...<br><a href="">ler mais</a></p>
+        </div>
+    </a>
 </section>
