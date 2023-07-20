@@ -1,0 +1,29 @@
+nav {
+    width: 100%;
+    padding: 0px 100px;
+    margin: 10px 0;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+
+        li {
+
+            a {
+                font-size: 18px;
+                color: #999999;
+            }
+        }
+
+        span {
+            width: 10px;
+            height: 2px;
+            background-color: #222222;
+            ;
+        }
+    }
+}
